@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/profile"
+        app:layout_constraintBottom_toTopOf="@+id/nim_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nim_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="NIM : 10120142"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image"
+        app:layout_constraintStart_toStartOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+    <TextView
+        android:id="@+id/nama_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nama : Jhonathan Kenzo"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/nim_text"
+        app:layout_constraintStart_toStartOf="@+id/nim_text"
+        app:layout_constraintTop_toBottomOf="@+id/nim_text" />
+
+    <TextView
+        android:id="@+id/kelas_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Kelas : IF-4"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/nama_text"
+        app:layout_constraintStart_toStartOf="@+id/nama_text"
+        app:layout_constraintTop_toBottomOf="@+id/nama_text" />
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="Email : jhonathan.10120142@mahasiswa.unikom.ac.id"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelas_text" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_logout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Logout"
+        android:background="@drawable/bg_button"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/email_text"
+        app:layout_constraintStart_toStartOf="@+id/email_text"
+        app:layout_constraintTop_toBottomOf="@+id/email_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

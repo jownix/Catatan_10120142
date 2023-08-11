@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1005065119484",
+    "firebase_url": "https://uas-akb-10120142-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "uas-akb-10120142",
+    "storage_bucket": "uas-akb-10120142.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005065119484:android:20100073f32659fe775979",
+        "android_client_info": {
+          "package_name": "com.uas.catatanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005065119484-ojabr62s8ja0uaq262jtk5g542ph1en3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uas.catatanapp",
+            "certificate_hash": "11c122b6c4d5f72b9e26568c356d8a5a74137e78"
+          }
+        },
+        {
+          "client_id": "1005065119484-uf9grrpqs43ncbmsklekjbplp5ifqnc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTIxq3d6ibDnwhOR7y7LDeYJqDXnaeLbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005065119484-enkfisg8hkachbv23pe0oi9c978ik3bs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
